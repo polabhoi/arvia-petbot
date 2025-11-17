@@ -21,15 +21,15 @@
 #include "faces.h"
 
 // === WiFi Credentials (defaults, NOT used when WiFi Manager runs) ===
-const char* ssid = "alpha";
-const char* password = "polastee";
+const char* ssid = "YOUR_SSID";
+const char* password = "YOUR_PASSWORD";
 
 // === API Keys ===
 // === Deepgram API Key ===
-const char* deepgramApiKey = "ed4cfc0929d0662f5ab9fc0427886742e85a1b97";
+const char* deepgramApiKey = "YOUR_DEEPGRAM_API_KEY";
 
 // Gemini (kept from original; replace if needed)
-const char* gemini_KEY = "AIzaSyCDdiCu7BDxP1RQeYYtytTDwq4fcjoj8Go";
+const char* gemini_KEY = "YOUR_GEMINI_API_KEY";
 
 // === Pin Definitions ===
 #define TTP223_PIN 13            // touch to record (AI mode only)
